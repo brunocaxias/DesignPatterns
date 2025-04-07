@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.WebAPI", "Singleton.WebAPI\Singleton.WebAPI.csproj", "{1E86C872-1757-4E2E-94AB-31FDF78FA32B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{34122F5A-1FBD-45CC-9B2E-DEE5FC8229C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Design Patterns", "Creational Design Patterns", "{314B0E10-EC3E-4500-8680-FD3B5459FAE1}"
@@ -55,22 +53,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template Method", "Template
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{6230FAA1-D903-479F-A981-C5E0025035D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common Models", "Common Models", "{848E7D60-B688-4B84-AEC7-CA9B5D4BBD21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Domain", "Restaurant.Domain\Restaurant.Domain.csproj", "{77F45D01-FED5-4C74-BFB3-6245FB990A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodRestaurant.ConsoleApp", "FactoryMethodRestaurant.Console\FactoryMethodRestaurant.ConsoleApp.csproj", "{0EF0C6DC-0B49-4363-AA3D-71F8F172CB30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E86C872-1757-4E2E-94AB-31FDF78FA32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E86C872-1757-4E2E-94AB-31FDF78FA32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E86C872-1757-4E2E-94AB-31FDF78FA32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E86C872-1757-4E2E-94AB-31FDF78FA32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F45D01-FED5-4C74-BFB3-6245FB990A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F45D01-FED5-4C74-BFB3-6245FB990A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F45D01-FED5-4C74-BFB3-6245FB990A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F45D01-FED5-4C74-BFB3-6245FB990A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF0C6DC-0B49-4363-AA3D-71F8F172CB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF0C6DC-0B49-4363-AA3D-71F8F172CB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF0C6DC-0B49-4363-AA3D-71F8F172CB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF0C6DC-0B49-4363-AA3D-71F8F172CB30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1E86C872-1757-4E2E-94AB-31FDF78FA32B} = {34122F5A-1FBD-45CC-9B2E-DEE5FC8229C1}
 		{34122F5A-1FBD-45CC-9B2E-DEE5FC8229C1} = {314B0E10-EC3E-4500-8680-FD3B5459FAE1}
 		{761943A0-B030-4F3B-B290-7F1152B3DBED} = {314B0E10-EC3E-4500-8680-FD3B5459FAE1}
 		{E730CEC9-000D-4210-8842-97770B1D60AE} = {314B0E10-EC3E-4500-8680-FD3B5459FAE1}
@@ -93,6 +100,8 @@ Global
 		{3B563E5E-975A-41EC-AD81-46A2B7EF740D} = {7A7AB233-CB5C-44AA-B4B8-16870029085B}
 		{9DA7714E-2D79-484A-A4AC-74957305F0FB} = {7A7AB233-CB5C-44AA-B4B8-16870029085B}
 		{6230FAA1-D903-479F-A981-C5E0025035D5} = {7A7AB233-CB5C-44AA-B4B8-16870029085B}
+		{77F45D01-FED5-4C74-BFB3-6245FB990A7A} = {848E7D60-B688-4B84-AEC7-CA9B5D4BBD21}
+		{0EF0C6DC-0B49-4363-AA3D-71F8F172CB30} = {761943A0-B030-4F3B-B290-7F1152B3DBED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D09BA8F-A508-45F0-8F0F-322516C26847}
